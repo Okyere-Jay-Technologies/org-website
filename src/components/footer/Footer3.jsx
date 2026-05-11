@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ThumbFooter from "../../../public/assets/imgs/thumb/footer.jpg";
+import ThumbFooter from "../../../public/assets/imgs/thumb/footer_tech.png";
 import FooterLogoWhite from "../../../public/assets/imgs/logo/footer-logo-white.png";
 import Image from "next/image";
 

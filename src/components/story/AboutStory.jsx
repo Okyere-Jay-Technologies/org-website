@@ -1,7 +1,7 @@
-import Story1 from "../../../public/assets/imgs/story/1.jpg";
-import Story2 from "../../../public/assets/imgs/story/2.jpg";
-import Story3 from "../../../public/assets/imgs/story/3.jpg";
-import Story4 from "../../../public/assets/imgs/story/4.jpg";
+import Story1 from "../../../public/assets/imgs/story/story_tech_1.png";
+import Story2 from "../../../public/assets/imgs/story/story_tech_2.png";
+import Story3 from "../../../public/assets/imgs/story/story_tech_3.png";
+import Story4 from "../../../public/assets/imgs/story/story_tech_4.png";
 import Image from "next/image";
 
 const AboutStory = () => {
@@ -23,22 +23,20 @@ const AboutStory = () => {
               <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                 <div className="story__text">
                   <p>
-                    Your brand is the most important asset in your company let
-                    our team of professionals help you with a good strategy took
-                    the runway next with an edgy collection featuring dyed denim
-                    pieces. The collection included patchwork denim, a trend
-                    that has recently exploded in younger generations. Playing
-                    on aspects of sustainability, the pieces appeared to be
-                    upcycled to establish dimension and flair. This take on
-                    grunge and streetwear took sustainable fashion to an
-                    entirely new level.
+                    Okyere Jay Technologies was founded on a simple premise: modern 
+                    enterprises require digital infrastructure that is not just reliable, 
+                    but resilient and infinitely scalable. We moved away from bloated 
+                    legacy systems to architecting next-generation cloud environments, 
+                    secure blockchain networks, and zero-trust cybersecurity frameworks. 
+                    Our focus is strictly on high-performance engineering that powers 
+                    the future of technology companies.
                   </p>
                   <p>
-                    ur specialized team of researchers, strategists, designers,
-                    developers, and project managers work with streamlined
-                    processes to break through organizational roadblocks. We
-                    translate research into solutions, crafting thoughtful and
-                    unified brands.
+                    Our specialized team of cloud architects, security researchers, 
+                    blockchain developers, and DevOps engineers work with streamlined 
+                    processes to break through complex organizational roadblocks. We 
+                    translate rigorous R&D into production-ready solutions, crafting 
+                    thoughtful and robust digital ecosystems.
                   </p>
                 </div>
               </div>
