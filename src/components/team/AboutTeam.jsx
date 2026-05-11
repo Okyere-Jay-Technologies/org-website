@@ -1,10 +1,10 @@
 import { FreeMode } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { gsap } from "gsap";
-import Team1 from "../../../public/assets/imgs/team/1.jpg";
-import Team2 from "../../../public/assets/imgs/team/2.jpg";
-import Team3 from "../../../public/assets/imgs/team/3.jpg";
-import Team4 from "../../../public/assets/imgs/team/4.jpg";
+import Team1 from "../../../public/assets/imgs/team/team_tech_1.png";
+import Team2 from "../../../public/assets/imgs/team/team_tech_2.png";
+import Team3 from "../../../public/assets/imgs/team/team_tech_3.png";
+import Team4 from "../../../public/assets/imgs/team/team_tech_4.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -98,7 +98,7 @@ const AboutTeam = () => {
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Saymon D. Halk</h4>
+                    <h4 className="team__member-name">John Okyere</h4>
                     <h5 className="team__member-role">Founder & CEO</h5>
                   </div>
                 </Link>
@@ -115,8 +115,8 @@ const AboutTeam = () => {
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Jassica Oliver</h4>
-                    <h5 className="team__member-role">Researcher</h5>
+                    <h4 className="team__member-name">Sarah Jenkins</h4>
+                    <h5 className="team__member-role">Lead Cloud Architect</h5>
                   </div>
                 </Link>
               </div>
@@ -132,8 +132,8 @@ const AboutTeam = () => {
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Daniyel Adamson</h4>
-                    <h5 className="team__member-role">Digital Marketer</h5>
+                    <h4 className="team__member-name">David Chen</h4>
+                    <h5 className="team__member-role">Head of Cybersecurity</h5>
                   </div>
                 </Link>
               </div>
@@ -149,8 +149,8 @@ const AboutTeam = () => {
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Hardiya Kethrine</h4>
-                    <h5 className="team__member-role">Lead Designer</h5>
+                    <h4 className="team__member-name">Maya Patel</h4>
+                    <h5 className="team__member-role">VP of Engineering</h5>
                   </div>
                 </Link>
               </div>
@@ -166,8 +166,8 @@ const AboutTeam = () => {
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Saymon D. Halk</h4>
-                    <h5 className="team__member-role">Researcher</h5>
+                    <h4 className="team__member-name">John Okyere</h4>
+                    <h5 className="team__member-role">Lead Cloud Architect</h5>
                   </div>
                 </Link>
               </div>
@@ -183,8 +183,8 @@ const AboutTeam = () => {
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Jassica Oliver</h4>
-                    <h5 className="team__member-role">Lead Designer</h5>
+                    <h4 className="team__member-name">Sarah Jenkins</h4>
+                    <h5 className="team__member-role">VP of Engineering</h5>
                   </div>
                 </Link>
               </div>
@@ -200,7 +200,7 @@ const AboutTeam = () => {
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Saymon D. Halk</h4>
+                    <h4 className="team__member-name">John Okyere</h4>
                     <h5 className="team__member-role">Founder & CEO</h5>
                   </div>
                 </Link>
@@ -217,8 +217,8 @@ const AboutTeam = () => {
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Jassica Oliver</h4>
-                    <h5 className="team__member-role">Researcher</h5>
+                    <h4 className="team__member-name">Sarah Jenkins</h4>
+                    <h5 className="team__member-role">Lead Cloud Architect</h5>
                   </div>
                 </Link>
               </div>
@@ -234,8 +234,8 @@ const AboutTeam = () => {
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Daniyel Adamson</h4>
-                    <h5 className="team__member-role">Digital Marketer</h5>
+                    <h4 className="team__member-name">David Chen</h4>
+                    <h5 className="team__member-role">Head of Cybersecurity</h5>
                   </div>
                 </Link>
               </div>
@@ -251,8 +251,8 @@ const AboutTeam = () => {
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Hardiya Kethrine</h4>
-                    <h5 className="team__member-role">Lead Designer</h5>
+                    <h4 className="team__member-name">Maya Patel</h4>
+                    <h5 className="team__member-role">VP of Engineering</h5>
                   </div>
                 </Link>
               </div>
@@ -268,8 +268,8 @@ const AboutTeam = () => {
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Saymon D. Halk</h4>
-                    <h5 className="team__member-role">Researcher</h5>
+                    <h4 className="team__member-name">John Okyere</h4>
+                    <h5 className="team__member-role">Lead Cloud Architect</h5>
                   </div>
                 </Link>
               </div>
@@ -285,8 +285,8 @@ const AboutTeam = () => {
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Jassica Oliver</h4>
-                    <h5 className="team__member-role">Lead Designer</h5>
+                    <h4 className="team__member-name">Sarah Jenkins</h4>
+                    <h5 className="team__member-role">VP of Engineering</h5>
                   </div>
                 </Link>
               </div>
