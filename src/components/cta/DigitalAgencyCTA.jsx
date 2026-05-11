@@ -11,7 +11,7 @@ const DigitalAgencyCTA = () => {
               <div className="cta__content">
                 <p className="cta__sub-title">Ready to scale?</p>
                 <h2 className="cta__title title-anim">
-                  Let's engineer your digital infrastructure
+                Let&apos;s engineer the future
                 </h2>
                 <div className="btn_wrapper">
                   <Link
