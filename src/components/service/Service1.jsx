@@ -2,11 +2,11 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link";
-import Service11 from "../../../public/assets/imgs/service/1.jpg";
-import Service12 from "../../../public/assets/imgs/service/2.jpg";
-import Service13 from "../../../public/assets/imgs/service/3.jpg";
-import Service14 from "../../../public/assets/imgs/service/4.jpg";
-import Service15 from "../../../public/assets/imgs/service/5.jpg";
+import Service11 from "../../../public/assets/imgs/service/service_tech_1.png";
+import Service12 from "../../../public/assets/imgs/service/service_tech_2.png";
+import Service13 from "../../../public/assets/imgs/service/service_tech_3.png";
+import Service14 from "../../../public/assets/imgs/service/service_tech_4.png";
+import Service15 from "../../../public/assets/imgs/service/service_tech_5.png";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -98,8 +98,7 @@ const Service1 = () => {
                   <ul className="service__list-6">
                     <li>
                       <a href="#service_1">
-                        Interaction <br />
-                        Design
+                        Cloud <br /> Architecture
                       </a>
                     </li>
                     <li>
@@ -110,24 +109,22 @@ const Service1 = () => {
                     </li>
                     <li>
                       <a href="#service_3">
-                        Motion & Branding <br />
-                        Design
+                        Cybersecurity & <br /> Compliance
                       </a>
                     </li>
                     <li>
                       <a href="#service_4">
-                        Digital <br /> Maketing
+                        Blockchain & <br /> Web3
                       </a>
                     </li>
                     <li>
                       <a href="#service_5">
-                        Concept and <br />
-                        Strategy
+                        DevOps & <br /> SRE
                       </a>
                     </li>
                     <li>
                       <a href="#service_6">
-                        Illustrations & <br /> Prototype
+                        Research & <br /> Development
                       </a>
                     </li>
                   </ul>
@@ -202,23 +199,19 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          User paths or user flows functional models
+                          Cloud Computing & Infrastructure
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          We engineer highly scalable, fault-tolerant cloud architectures designed to handle millions of concurrent users. Our team specializes in container orchestration, microservices, and multi-cloud strategies to ensure your applications remain robust and reliable under any load.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
-                        </ul>
+  <li>+ Distributed Systems</li>
+  <li>+ Kubernetes & Docker</li>
+  <li>+ Zero-Trust Security</li>
+  <li>+ Smart Contracts</li>
+  <li>+ CI/CD Pipelines</li>
+  <li>+ Performance Tuning</li>
+</ul>
                         <div className="btn_wrapper">
                           <Link
                             href="/service-details"
@@ -248,23 +241,19 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          Web & Mobile Development
+                          Full-Stack Software Engineering
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          We engineer highly scalable, fault-tolerant cloud architectures designed to handle millions of concurrent users. Our team specializes in container orchestration, microservices, and multi-cloud strategies to ensure your applications remain robust and reliable under any load.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
-                        </ul>
+  <li>+ Distributed Systems</li>
+  <li>+ Kubernetes & Docker</li>
+  <li>+ Zero-Trust Security</li>
+  <li>+ Smart Contracts</li>
+  <li>+ CI/CD Pipelines</li>
+  <li>+ Performance Tuning</li>
+</ul>
                         <div className="btn_wrapper">
                           <Link
                             href="/service-details"
@@ -294,23 +283,19 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          UMotion & Branding Design
+                          Cybersecurity & Compliance
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          We engineer highly scalable, fault-tolerant cloud architectures designed to handle millions of concurrent users. Our team specializes in container orchestration, microservices, and multi-cloud strategies to ensure your applications remain robust and reliable under any load.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
-                        </ul>
+  <li>+ Distributed Systems</li>
+  <li>+ Kubernetes & Docker</li>
+  <li>+ Zero-Trust Security</li>
+  <li>+ Smart Contracts</li>
+  <li>+ CI/CD Pipelines</li>
+  <li>+ Performance Tuning</li>
+</ul>
                         <div className="btn_wrapper">
                           <Link
                             href="/service-details"
@@ -340,23 +325,19 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          User paths or user flows functional models
+                          Cloud Computing & Infrastructure
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          We engineer highly scalable, fault-tolerant cloud architectures designed to handle millions of concurrent users. Our team specializes in container orchestration, microservices, and multi-cloud strategies to ensure your applications remain robust and reliable under any load.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
-                        </ul>
+  <li>+ Distributed Systems</li>
+  <li>+ Kubernetes & Docker</li>
+  <li>+ Zero-Trust Security</li>
+  <li>+ Smart Contracts</li>
+  <li>+ CI/CD Pipelines</li>
+  <li>+ Performance Tuning</li>
+</ul>
                         <div className="btn_wrapper">
                           <Link
                             href="/service-details"
@@ -386,23 +367,19 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          User paths or user flows functional models
+                          Cloud Computing & Infrastructure
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          We engineer highly scalable, fault-tolerant cloud architectures designed to handle millions of concurrent users. Our team specializes in container orchestration, microservices, and multi-cloud strategies to ensure your applications remain robust and reliable under any load.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
-                        </ul>
+  <li>+ Distributed Systems</li>
+  <li>+ Kubernetes & Docker</li>
+  <li>+ Zero-Trust Security</li>
+  <li>+ Smart Contracts</li>
+  <li>+ CI/CD Pipelines</li>
+  <li>+ Performance Tuning</li>
+</ul>
                         <div className="btn_wrapper">
                           <Link
                             href="/service-details"
@@ -432,23 +409,19 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          Illustrations & Prototype
+                          Research & Development
                         </h2>
                         <p>
-                          This is the second workshop of the UX design
-                          methodology. Given all the conclusions drawn in the
-                          personae workshop, we will project ourselves towards
-                          the production of ideal user journeys. In other words:
-                          how each persona can achieve their goal.
+                          We engineer highly scalable, fault-tolerant cloud architectures designed to handle millions of concurrent users. Our team specializes in container orchestration, microservices, and multi-cloud strategies to ensure your applications remain robust and reliable under any load.
                         </p>
                         <ul>
-                          <li>+ API Development</li>
-                          <li>+ WordPress</li>
-                          <li>+ Cloud Migration</li>
-                          <li>+ Front End Development</li>
-                          <li>+ JavaScript</li>
-                          <li>+ Fluter Framework</li>
-                        </ul>
+  <li>+ Distributed Systems</li>
+  <li>+ Kubernetes & Docker</li>
+  <li>+ Zero-Trust Security</li>
+  <li>+ Smart Contracts</li>
+  <li>+ CI/CD Pipelines</li>
+  <li>+ Performance Tuning</li>
+</ul>
                         <div className="btn_wrapper">
                           <Link
                             href="/service-details"
