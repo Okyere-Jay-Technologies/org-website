@@ -131,120 +131,120 @@ const Portfolio1 = () => {
                 <div className="portfolio__wrapper-6">
                   <div className="portfolio__list-6" ref={portfolioItemList}>
                     <div className="portfolio__item-6" data-portfitem="1">
-                      <Link href="/portfolio-details">
+                      <Link href="/portfolio-details-dark">
                         <Image
                           priority
                           width={770}
                           style={{ height: "auto" }}
                           src={Portfilio61}
-                          alt="Portfolio Image"
+                          alt="Global FinTech Infrastructure"
                           data-speed="0.4"
                         />
                         <div className="portfolio__content-6">
-                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
-                          <h5 className="portfolio__date">02 May 2021</h5>
+                          <h4 className="portfolio__title-6">Global FinTech Infrastructure</h4>
+                          <h5 className="portfolio__date">April 2023</h5>
                         </div>
                       </Link>
                     </div>
 
                     <div className="portfolio__item-6" data-portfitem="2">
-                      <Link href="/portfolio-details">
+                      <Link href="/portfolio-details-dark">
                         <Image
                           priority
                           width={770}
                           style={{ height: "auto" }}
                           src={Portfilio62}
-                          alt="Portfolio Image"
+                          alt="AI Data Pipeline"
                           data-speed="0.4"
                         />
                         <div className="portfolio__content-6">
-                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
-                          <h5 className="portfolio__date">02 May 2021</h5>
+                          <h4 className="portfolio__title-6">AI-Powered Data Pipeline</h4>
+                          <h5 className="portfolio__date">September 2023</h5>
                         </div>
                       </Link>
                     </div>
 
                     <div className="portfolio__item-6" data-portfitem="3">
-                      <Link href="/portfolio-details">
+                      <Link href="/portfolio-details-dark">
                         <Image
                           priority
                           width={770}
                           style={{ height: "auto" }}
                           src={Portfilio63}
-                          alt="Portfolio Image"
+                          alt="Enterprise Cloud Migration"
                           data-speed="0.4"
                         />
                         <div className="portfolio__content-6">
-                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
-                          <h5 className="portfolio__date">02 May 2021</h5>
+                          <h4 className="portfolio__title-6">Enterprise Cloud Migration</h4>
+                          <h5 className="portfolio__date">January 2024</h5>
                         </div>
                       </Link>
                     </div>
 
                     <div className="portfolio__item-6" data-portfitem="4">
-                      <Link href="/portfolio-details">
+                      <Link href="/portfolio-details-dark">
                         <Image
                           priority
                           width={770}
                           style={{ height: "auto" }}
                           src={Portfilio64}
-                          alt="Portfolio Image"
+                          alt="Zero-Trust Security Architecture"
                           data-speed="0.4"
                         />
                         <div className="portfolio__content-6">
-                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
-                          <h5 className="portfolio__date">02 May 2021</h5>
+                          <h4 className="portfolio__title-6">Zero-Trust Security Architecture</h4>
+                          <h5 className="portfolio__date">March 2024</h5>
                         </div>
                       </Link>
                     </div>
 
                     <div className="portfolio__item-6" data-portfitem="5">
-                      <Link href="/portfolio-details">
+                      <Link href="/portfolio-details-dark">
                         <Image
                           priority
                           width={770}
                           style={{ height: "auto" }}
                           src={Portfilio65}
-                          alt="Portfolio Image"
+                          alt="High-Frequency Trading Network"
                           data-speed="0.4"
                         />
                         <div className="portfolio__content-6">
-                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
-                          <h5 className="portfolio__date">02 May 2021</h5>
+                          <h4 className="portfolio__title-6">High-Frequency Trading Network</h4>
+                          <h5 className="portfolio__date">May 2024</h5>
                         </div>
                       </Link>
                     </div>
 
                     <div className="portfolio__item-6" data-portfitem="6">
-                      <Link href="/portfolio-details">
+                      <Link href="/portfolio-details-dark">
                         <Image
                           priority
                           width={770}
                           style={{ height: "auto" }}
                           src={Portfilio66}
-                          alt="Portfolio Image"
+                          alt="Predictive Analytics Engine"
                           data-speed="0.4"
                         />
                         <div className="portfolio__content-6">
-                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
-                          <h5 className="portfolio__date">02 May 2021</h5>
+                          <h4 className="portfolio__title-6">Predictive Analytics Engine</h4>
+                          <h5 className="portfolio__date">July 2024</h5>
                         </div>
                       </Link>
                     </div>
 
                     <div className="portfolio__item-6" data-portfitem="7">
-                      <Link href="/portfolio-details">
+                      <Link href="/portfolio-details-dark">
                         <Image
                           priority
                           width={770}
                           style={{ height: "auto" }}
                           src={Portfilio67}
-                          alt="Portfolio Image"
+                          alt="Web3 DeFi Protocol"
                           data-speed="0.4"
                         />
                         <div className="portfolio__content-6">
-                          <h4 className="portfolio__title-6">Lionpro Agency</h4>
-                          <h5 className="portfolio__date">02 May 2021</h5>
+                          <h4 className="portfolio__title-6">Web3 DeFi Protocol</h4>
+                          <h5 className="portfolio__date">October 2024</h5>
                         </div>
                       </Link>
                     </div>
