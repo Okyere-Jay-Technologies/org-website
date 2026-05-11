@@ -44,97 +44,62 @@ const DigitalAgencyRoll = () => {
           >
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Development</h2>
+                <h2>SOFTWARE ENGINEERING</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Studio</h2>
+                <h2>CLOUD ARCHITECTURE</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Strategy</h2>
+                <h2>DEVOPS</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Branding</h2>
+                <h2>CYBERSECURITY</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Agency</h2>
+                <h2>DATA PIPELINES</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>typhography</h2>
+                <h2>AI INTEGRATION</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Design</h2>
+                <h2>SOFTWARE ENGINEERING</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Interaction</h2>
+                <h2>CLOUD ARCHITECTURE</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Element</h2>
+                <h2>DEVOPS</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>DIgital SOlution</h2>
+                <h2>CYBERSECURITY</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Strategy</h2>
+                <h2>DATA PIPELINES</h2>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="roll__slide">
-                <h2>Branding</h2>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Agency</h2>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Interaction</h2>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>DIgital SOlution</h2>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>typhography</h2>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Design</h2>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Interaction</h2>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="roll__slide">
-                <h2>Element</h2>
+                <h2>AI INTEGRATION</h2>
               </div>
             </SwiperSlide>
           </Swiper>

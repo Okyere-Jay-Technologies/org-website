@@ -77,8 +77,8 @@ const DigitalAgency = () => {
   return (
     <div>
       <Head>
-        <title>Digital Agency</title>
-        <meta name="description" content="Digital Agency Description" />
+        <title>OKYERE JAY TECHNOLOGIES | Engineering The Future</title>
+        <meta name="description" content="Premium software engineering, cloud architecture, and cybersecurity solutions for modern enterprises." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>

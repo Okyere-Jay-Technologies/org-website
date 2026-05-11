@@ -48,7 +48,7 @@ export default function Header3() {
       <header className="header__area" ref={headerArea}>
         <div className="header__inner">
           <div className="header__logo">
-            <Link href="/digital-marketing">
+            <Link href="/digital-agency-dark">
               <Image
                 priority
                 width={33}
@@ -80,7 +80,7 @@ export default function Header3() {
           </div>
           <div className="header__support">
             <p>
-              Support center <a href="tel:+9587325902">+9 587 325 902</a>
+              Need Support? <a href="tel:+233591518686">+233 591 518 686</a>
             </p>
           </div>
         </div>

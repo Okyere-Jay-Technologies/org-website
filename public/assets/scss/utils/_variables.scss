@@ -58,11 +58,11 @@
 
 // Colors
 :root {
-  --primary: #c9f31d;
-  --secondary: #2c2c2c;
+  --primary: #3B82F6;
+  --secondary: #06B6D4;
 
   --black: #000;
-  --black-2: #121212;
+  --black-2: #0A0A0A;
   --black-3: #555;
   --black-4: #1d1d1d;
   --black-5: #343434;
@@ -104,8 +104,8 @@
 
   --d-gray: #6A6A6A;
   --d-black: #1A1A1A;
-  --d-black-2: #171717;
-  --d-black-3: #1A1A1A;
+  --d-black-2: #111111;
+  --d-black-3: #161616;
 }
 
 // Font Family | newYork
@@ -118,7 +118,8 @@
 
 
 // Font Family
-$font_primary: 'Kanit', sans-serif;
+$font_primary: 'Inter', sans-serif;
+$font_heading: 'Space Grotesk', sans-serif;
 $font_awesome: 'Font Awesome 6 Free';
 $font_newyork: 'newYork';
 $PlusJakarta : 'Plus Jakarta Sans', sans-serif;

@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import Testimonial11 from "../../../public/assets/imgs/testimonial/1/1.png";
-import Testimonial12 from "../../../public/assets/imgs/testimonial/1/2.png";
-import Testimonial13 from "../../../public/assets/imgs/testimonial/1/3.png";
+import Testimonial11 from "../../../public/assets/imgs/testimonial/1/testimonial_tech_1.png";
+import Testimonial12 from "../../../public/assets/imgs/testimonial/1/testimonial_tech_2.png";
+import Testimonial13 from "../../../public/assets/imgs/testimonial/1/testimonial_tech_3.png";
 import Image from "next/image";
 
 const DigitalAgencyTestimonial = ({
@@ -139,8 +139,8 @@ const DigitalAgencyTestimonial = ({
                       />
                     </div>
 
-                    <h2 className="testimonial__title">Jessica Sherlock</h2>
-                    <h3 className="testimonial__role">Manager, Oitaka</h3>
+                    <h2 className="testimonial__title">A.I. Systems</h2>
+                    <h3 className="testimonial__role">Diagnostic Core</h3>
                   </div>
                 </div>
                 <div className="sec-title-wrapper text-anim">
@@ -150,8 +150,7 @@ const DigitalAgencyTestimonial = ({
                     feedback
                   </h5>
                   <p>
-                    Our happy customers give us impactfull and positive feedback
-                    on our services, customer supports & etc.
+                    Deploying cutting edge technology and infrastructure with highly available systems that exceed client expectations.
                   </p>
                 </div>
               </div>
@@ -168,8 +167,8 @@ const DigitalAgencyTestimonial = ({
                     />
                   </div>
 
-                  <h2 className="testimonial__title">Jessica Sherlock</h2>
-                  <h3 className="testimonial__role">Manager, Oitaka</h3>
+                  <h2 className="testimonial__title">Security Node 4</h2>
+                  <h3 className="testimonial__role">Threat Intelligence</h3>
                 </div>
               </div>
             </div>
@@ -186,8 +185,8 @@ const DigitalAgencyTestimonial = ({
                     />
                   </div>
 
-                  <h2 className="testimonial__title">adam Smith</h2>
-                  <h3 className="testimonial__role">Manager, Oitaka</h3>
+                  <h2 className="testimonial__title">Data Stream 9</h2>
+                  <h3 className="testimonial__role">Traffic Control</h3>
                 </div>
               </div>
             </div>

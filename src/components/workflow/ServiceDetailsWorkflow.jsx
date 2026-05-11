@@ -1,8 +1,8 @@
 const ServiceDetailsWorkflow = () => {
   return (
     <>
-      <section className="workflow__area-6">
-        <div className="container g-0 line pb-130">
+      <section className="workflow__area-6 pb-130">
+        <div className="container g-0 line pt-140">
           <div className="line-3"></div>
           <div className="workflow__wrapper-6">
             <div className="row">

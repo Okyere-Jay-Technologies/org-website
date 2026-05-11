@@ -4,7 +4,7 @@ import { SplitText } from "@/plugins";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Link from "next/link.js";
 import ArrowDownBig from "../../../public/assets/imgs/icon/arrow-down-big.png";
-import Hero1bg from "../../../public/assets/imgs/hero/1/1-bg.png";
+import Hero1bg from "../../../public/assets/imgs/hero/1/cyber_hero_bg.png";
 import Image from "next/image.js";
 
 const DigitalAgencyHero = () => {
@@ -57,21 +57,19 @@ const DigitalAgencyHero = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="hero__content animation__hero_one">
-                <Link href="/service">
-                  Strategy, Design, Solution Development{" "}
-                  <span>
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </span>
-                </Link>
+               <Link href="/service-dark" style={{ marginRight: "160px" }}>
+               Scalable Digital Infrastructure
+  <span style={{ marginLeft: "30px", display: "inline-block" }}>
+  <i className="fa-solid fa-arrow-right icon-animation"></i>
+  </span>
+</Link>
                 <div className="hero__title-wrapper">
                   <h1 className="hero__title" ref={heroTitle}>
-                    Digital agency studio
+                    Engineering <br /> The Future
                   </h1>
-                  <p className="hero__sub-title" ref={heroSubTitle}>
-                    With every single one of our clients, we bring forth deep
-                    passion for
-                    <span>creative problem solving</span>
-                    which is what we deliver.
+                  <p className="hero__sub-title fade_left" ref={heroSubTitle}>
+                    Reliable, resilient, and high-performance software engineering for
+                    <span> scaling technology companies.</span>
                   </p>
                 </div>
                 <Image
@@ -82,10 +80,10 @@ const DigitalAgencyHero = () => {
                   alt="Arrow Down Icon"
                 />
                 <div className="experience">
-                  <h2 className="title">25k+</h2>
+                  <h2 className="title">99.99%</h2>
                   <p>
-                    Projects completed <br />
-                    successfully
+                    Uptime guarantee <br />
+                    across all infrastructure
                   </p>
                 </div>
               </div>

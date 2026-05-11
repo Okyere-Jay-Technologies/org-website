@@ -3,8 +3,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger, ScrollSmoother } from "@/plugins";
 import Link from "next/link";
 import Image from "next/image";
-import About11 from "../../../public/assets/imgs/about/1/1.jpg";
-import About12 from "../../../public/assets/imgs/about/1/2.jpg";
+import About11 from "../../../public/assets/imgs/about/1/about_tech_1.png";
+import About12 from "../../../public/assets/imgs/about/1/about_tech_2.png";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -33,7 +33,7 @@ const DigitalAgencyAbout = () => {
             <div className="col-xxl-12">
               <div className="about__title-wrapper">
                 <h3 className="sec-title title-anim">
-                  We unlock the potential of your business with creative design
+                  We build the backbone of modern digital business
                 </h3>
               </div>
 
@@ -67,18 +67,17 @@ const DigitalAgencyAbout = () => {
 
                 <div className="about__content text-anim">
                   <p>
-                    From traditional PR and thought leadership campaigns to
-                    storytelling and creative social media management we’ve got
-                    you covered. Something is not your average order-taking
-                    vendor. We are proud to be the go-to partner for some of the
-                    world’s biggest agencies and brands because they trust our
-                    expertise
+                    From highly available cloud architecture and AI integration
+                    to enterprise-grade cybersecurity, we engineer robust solutions. 
+                    OKYERE JAY TECHNOLOGIES is a technical partner committed 
+                    to delivering scalable, resilient digital infrastructure that 
+                    powers the next generation of industry leaders.
                   </p>
 
                   <div className="cursor-btn btn_wrapper">
                     <Link
                       className="btn-item wc-btn-primary btn-hover"
-                      href="/about"
+                      href="/about-dark"
                     >
                       <span></span> Explore Us{" "}
                       <i className="fa-solid fa-arrow-right"></i>

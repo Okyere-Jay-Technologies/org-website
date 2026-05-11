@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link";
-import Portfilio11 from "../../../public/assets/imgs/portfolio/1/1.jpg";
-import Portfilio12 from "../../../public/assets/imgs/portfolio/1/2.jpg";
-import Portfilio13 from "../../../public/assets/imgs/portfolio/1/3.jpg";
-import Portfilio14 from "../../../public/assets/imgs/portfolio/1/4.jpg";
+import Portfilio11 from "../../../public/assets/imgs/portfolio/1/portfolio_tech_1.png";
+import Portfilio12 from "../../../public/assets/imgs/portfolio/1/portfolio_tech_2.png";
+import Portfilio13 from "../../../public/assets/imgs/portfolio/1/portfolio_tech_3.png";
+import Portfilio14 from "../../../public/assets/imgs/portfolio/1/portfolio_tech_4.png";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -80,7 +80,7 @@ const DigitalAgencyPortfolio = () => {
             <h2 className="portfolio__text">work</h2>
             <div className="portfolio__list-1">
               <div className="portfolio__item">
-                <Link href="portfolio-details">
+                <Link href="/portfolio-details-dark">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -90,12 +90,12 @@ const DigitalAgencyPortfolio = () => {
                   />
                 </Link>
                 <div className="portfolio__info">
-                  <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
-                  <p>02 May 2021</p>
+                  <h3 className="portfolio__title">Global FinTech Infrastructure</h3>
+                  <p>April 2023</p>
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/portfolio-details-dark">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -104,12 +104,12 @@ const DigitalAgencyPortfolio = () => {
                   />
                 </Link>
                 <div className="portfolio__info">
-                  <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
-                  <p>02 May 2021</p>
+                  <h3 className="portfolio__title">AI Data Pipeline</h3>
+                  <p>September 2023</p>
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/portfolio-details-dark">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -118,12 +118,12 @@ const DigitalAgencyPortfolio = () => {
                   />
                 </Link>
                 <div className="portfolio__info">
-                  <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
-                  <p>02 May 2021</p>
+                  <h3 className="portfolio__title">Enterprise Cloud Migration</h3>
+                  <p>January 2024</p>
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/portfolio-details-dark">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -132,12 +132,12 @@ const DigitalAgencyPortfolio = () => {
                   />
                 </Link>
                 <div className="portfolio__info">
-                  <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
-                  <p>02 May 2021</p>
+                  <h3 className="portfolio__title">Zero-Trust Security Architecture</h3>
+                  <p>March 2024</p>
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/portfolio-details-dark">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -146,12 +146,12 @@ const DigitalAgencyPortfolio = () => {
                   />
                 </Link>
                 <div className="portfolio__info">
-                  <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
-                  <p>02 May 2021</p>
+                  <h3 className="portfolio__title">High-Frequency Trading Network</h3>
+                  <p>May 2024</p>
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/portfolio-details-dark">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -160,8 +160,8 @@ const DigitalAgencyPortfolio = () => {
                   />
                 </Link>
                 <div className="portfolio__info">
-                  <h3 className="portfolio__title">Arteck Lyon Conseil</h3>
-                  <p>02 May 2021</p>
+                  <h3 className="portfolio__title">Predictive Analytics Engine</h3>
+                  <p>July 2024</p>
                 </div>
               </div>
             </div>
@@ -176,7 +176,7 @@ const DigitalAgencyPortfolio = () => {
               >
                 <Link
                   className="wc-btn-secondary btn-hover btn-item"
-                  href="/portfolio"
+                  href="/portfolio-dark"
                 >
                   <span></span>View <br />
                   all projects <i className="fa-solid fa-arrow-right"></i>

@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link";
-import Blog11 from "../../../public/assets/imgs/blog/1/1.jpg";
-import Blog12 from "../../../public/assets/imgs/blog/1/2.jpg";
-import Blog13 from "../../../public/assets/imgs/blog/1/3.jpg";
+import Blog11 from "../../../public/assets/imgs/blog/1/blog_tech_1.png";
+import Blog12 from "../../../public/assets/imgs/blog/1/blog_tech_2.png";
+import Blog13 from "../../../public/assets/imgs/blog/1/blog_tech_3.png";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -67,7 +67,7 @@ const DigitalAgencyBlog = () => {
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <article className="blog__item">
                 <div className="blog__img-wrapper">
-                  <Link href="/blog-details">
+                  <Link href="/blog-details-dark">
                     <div className="img-box">
                       <Image
                         priority
@@ -87,14 +87,14 @@ const DigitalAgencyBlog = () => {
                   </Link>
                 </div>
                 <h4 className="blog__meta">
-                  <Link href="/category">UI Design</Link> . 02 May 2019
+                  <Link href="/category-dark">Cloud Infrastructure</Link> . 02 May 2024
                 </h4>
                 <h5>
-                  <Link href="/blog-details" className="blog__title">
-                    Ways of lying to yourself about your new relationship.
+                  <Link href="/blog-details-dark" className="blog__title">
+                    Designing Scalable Architecture for High-Traffic Applications
                   </Link>
                 </h5>
-                <Link href="/blog-details" className="blog__btn">
+                <Link href="/blog-details-dark" className="blog__btn">
                   Read More{" "}
                   <span>
                     <i className="fa-solid fa-arrow-right"></i>
@@ -106,7 +106,7 @@ const DigitalAgencyBlog = () => {
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <article className="blog__item">
                 <div className="blog__img-wrapper">
-                  <Link href="/blog-details">
+                  <Link href="/blog-details-dark">
                     <div className="img-box">
                       <Image
                         priority
@@ -126,14 +126,14 @@ const DigitalAgencyBlog = () => {
                   </Link>
                 </div>
                 <h4 className="blog__meta">
-                  <Link href="/category">UI Design</Link> . 02 May 2019
+                  <Link href="/category-dark">Cybersecurity</Link> . 15 May 2024
                 </h4>
                 <h5>
-                  <Link href="/blog-details" className="blog__title">
-                    How to manage a talented and successful de sign team
+                  <Link href="/blog-details-dark" className="blog__title">
+                    Zero-Trust Security Models in Enterprise Networks
                   </Link>
                 </h5>
-                <Link href="/blog-details" className="blog__btn">
+                <Link href="/blog-details-dark" className="blog__btn">
                   Read More{" "}
                   <span>
                     <i className="fa-solid fa-arrow-right"></i>
@@ -145,7 +145,7 @@ const DigitalAgencyBlog = () => {
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <article className="blog__item">
                 <div className="blog__img-wrapper">
-                  <Link href="/blog-details">
+                  <Link href="/blog-details-dark">
                     <div className="img-box">
                       <Image
                         priority
@@ -165,14 +165,14 @@ const DigitalAgencyBlog = () => {
                   </Link>
                 </div>
                 <h4 className="blog__meta">
-                  <Link href="/category">UI Design</Link> . 02 May 2019
+                  <Link href="/category-dark">Data Science</Link> . 28 May 2024
                 </h4>
                 <h5>
-                  <Link href="/blog-details" className="blog__title">
-                    How to bring fold to your startup company with Axtra
+                  <Link href="/blog-details-dark" className="blog__title">
+                    The Future of AI-Driven Data Pipelines
                   </Link>
                 </h5>
-                <Link href="/blog-details" className="blog__btn">
+                <Link href="/blog-details-dark" className="blog__btn">
                   Read More{" "}
                   <span>
                     <i className="fa-solid fa-arrow-right"></i>

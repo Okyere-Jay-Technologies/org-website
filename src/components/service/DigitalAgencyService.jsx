@@ -2,10 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link";
-import Service11 from "../../../public/assets/imgs/service/1/1.jpg";
-import Service12 from "../../../public/assets/imgs/service/1/2.png";
-import Service13 from "../../../public/assets/imgs/service/1/3.png";
-import Service14 from "../../../public/assets/imgs/service/1/4.png";
+import Service11 from "../../../public/assets/imgs/service/1/service_tech_1.png";
+import Service12 from "../../../public/assets/imgs/service/1/service_tech_2.png";
+import Service13 from "../../../public/assets/imgs/service/1/service_tech_3.png";
+import Service14 from "../../../public/assets/imgs/service/1/service_tech_4.png";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -127,9 +127,9 @@ const DigitalAgencyService = () => {
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
               <div className="service__top-text text-anim">
                 <p>
-                  With every single one of our clients we bring forth a deep
-                  passion for <span>creative problem solving innovations</span>{" "}
-                  forward thinking brands boundaries
+                  We engineer resilient software and robust infrastructure 
+                  with a focus on <span>scalability, security, and performance</span>{" "}
+                  for modern enterprises.
                 </p>
               </div>
             </div>
@@ -137,7 +137,7 @@ const DigitalAgencyService = () => {
               <div className="service__top-btn">
                 <div className="btn_wrapper">
                   <Link
-                    href="/service"
+                    href="/service-dark"
                     className="btn-item wc-btn-secondary btn-hover"
                   >
                     <span></span> View <br />
@@ -234,7 +234,7 @@ const DigitalAgencyService = () => {
               <div className="col-xxl-8 col-xl-8 col-lg-12 col-md-12">
                 <div className="service__list" ref={serviceList}>
                   <Link
-                    href="/service-details"
+                    href="/service-details-dark"
                     className={activeList == 1 ? "active" : ""}
                     data-service="1"
                   >
@@ -244,13 +244,13 @@ const DigitalAgencyService = () => {
                       </div>
                       <div className="service__title-wrapper">
                         <h4 className="service__title">
-                          Web & Mobile Development
+                          Cloud <br />
+                          Architecture & DevOps Integration
                         </h4>
                       </div>
                       <div className="service__text">
                         <p>
-                          We create, products, brands, apps & websites for the
-                          companies all around the world class digital products
+                          We architect and manage scalable cloud infrastructure with robust DevOps practices for seamless deployment and operations.
                         </p>
                       </div>
                       <div className="service__link">
@@ -262,7 +262,7 @@ const DigitalAgencyService = () => {
                   </Link>
 
                   <Link
-                    href="/service-details"
+                    href="/service-details-dark"
                     className={activeList == 2 ? "active" : ""}
                     data-service="2"
                   >
@@ -272,14 +272,13 @@ const DigitalAgencyService = () => {
                       </div>
                       <div className="service__title-wrapper">
                         <h4 className="service__title">
-                          Interaction <br />
-                          Design
+                          Web and Mobile <br />
+                          Application Development
                         </h4>
                       </div>
                       <div className="service__text">
                         <p>
-                          We create, products, brands, apps & websites for the
-                          companies all around the world class digital products
+                          We deliver high-performance web and mobile applications tailored to your business needs using modern technologies.
                         </p>
                       </div>
                       <div className="service__link">
@@ -290,8 +289,8 @@ const DigitalAgencyService = () => {
                     </div>
                   </Link>
 
-                  <Link
-                    href="/service-details"
+                  {/* <Link
+                    href="/service-details-dark"
                     className={activeList == 3 ? "active" : ""}
                     data-service="3"
                   >
@@ -301,14 +300,63 @@ const DigitalAgencyService = () => {
                       </div>
                       <div className="service__title-wrapper">
                         <h4 className="service__title">
-                          Digital <br />
-                          Maketing
+                          DevOps <br />
+                          Integration
                         </h4>
                       </div>
                       <div className="service__text">
                         <p>
-                          We create, products, brands, apps & websites for the
-                          companies all around the world class digital products
+                          We automate delivery pipelines, optimize system performance, and ensure continuous deployment efficiency.
+                        </p>
+                      </div>
+                      <div className="service__link">
+                        <p>
+                          <i className="fa-solid fa-arrow-right"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </Link> */}
+
+                  <Link
+                    href="/service-details-dark"
+                    className={activeList == 3 ? "active" : ""}
+                    data-service="3"
+                  >
+                    <div className="service__item  animation_home1_service">
+                      <div className="service__number">
+                        <span>03</span>
+                      </div>
+                      <div className="service__title-wrapper">
+                        <h4 className="service__title">
+                          Cybersecurity & Compliance
+                        </h4>
+                      </div>
+                      <div className="service__text">
+                        <p>
+                      We secure digital assets through advanced threat modeling, zero-trust architectures, and robust compliance auditing.
+                        </p>
+                      </div>
+                      <div className="service__link">
+                        <p>
+                          <i className="fa-solid fa-arrow-right"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </Link>
+
+                  <Link href="/service-details-dark" className={activeList == 4 ? "active" : ""} data-service="4">
+                    <div className="service__item  animation_home1_service">
+                      <div className="service__number">
+                        <span>04</span>
+                      </div>
+                      <div className="service__title-wrapper">
+                        <h4 className="service__title">
+                          Blockchain & Web3 Development
+                        </h4>
+                      </div>
+                      <div className="service__text">
+                        <p>
+                         We provide secure, scalable Web3 solutions, including custom blockchain development, smart contracts, and decentralized applications.
                         </p>
                       </div>
                       <div className="service__link">
@@ -320,23 +368,22 @@ const DigitalAgencyService = () => {
                   </Link>
 
                   <Link
-                    href="/service-details"
-                    className={activeList == 4 ? "active" : ""}
-                    data-service="4"
+                    href="/service-details-dark"
+                    className={activeList == 5 ? "active" : ""}
+                    data-service="5"
                   >
                     <div className="service__item  animation_home1_service">
                       <div className="service__number">
-                        <span>04</span>
+                        <span>05</span>
                       </div>
                       <div className="service__title-wrapper">
                         <h4 className="service__title">
-                          Branding and Strategy
+                          Research & Development
                         </h4>
                       </div>
                       <div className="service__text">
                         <p>
-                          We create, products, brands, apps & websites for the
-                          companies all around the world class digital products
+                        We specialize in pioneering the next generation of digital infrastructure through advanced Research & Development. Our core focus is on Zero-Knowledge (ZK) proofs and applied cryptography, where we transform complex theoretical concepts into secure, production-ready solutions. From enhancing privacy-preserving systems to developing next-gen consensus mechanisms, our R&D services provide the foundational innovation that empowers enterprises to lead in the evolving digital landscape.
                         </p>
                       </div>
                       <div className="service__link">

@@ -41,7 +41,7 @@ const DigitalAgencyWorkflow = () => {
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-sub-title title-anim">Workflow</h2>
-                <h3 className="sec-title title-anim">How we work</h3>
+                <h3 className="sec-title title-anim">Our Engineering Process</h3>
               </div>
             </div>
 
@@ -73,8 +73,8 @@ const DigitalAgencyWorkflow = () => {
                     <div className="workflow__slide fade_left">
                       <h4 className="workflow__step">step 01</h4>
                       <h5 className="workflow__number">01</h5>
-                      <h6 className="workflow__title">Audience</h6>
-                      <p>Having these the marketplace to your business</p>
+                      <h6 className="workflow__title">Architecture Design</h6>
+                      <p>Mapping the technical foundation and system requirements.</p>
                     </div>
                   </SwiperSlide>
 
@@ -82,9 +82,9 @@ const DigitalAgencyWorkflow = () => {
                     <div className="workflow__slide fade_left">
                       <h4 className="workflow__step">step 02</h4>
                       <h5 className="workflow__number">02</h5>
-                      <h6 className="workflow__title">Plan & Sketch</h6>
+                      <h6 className="workflow__title">System Development</h6>
                       <p>
-                        Delicate and long-lasting with vitamins and nutritions
+                        Building scalable, secure, and robust software components.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -93,9 +93,9 @@ const DigitalAgencyWorkflow = () => {
                     <div className="workflow__slide fade_left">
                       <h4 className="workflow__step">step 03</h4>
                       <h5 className="workflow__number">03</h5>
-                      <h6 className="workflow__title">Customize</h6>
+                      <h6 className="workflow__title">CI/CD Pipeline</h6>
                       <p>
-                        Creating brand identities for the digital experiences
+                        Automating integration, testing, and continuous delivery.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -104,9 +104,9 @@ const DigitalAgencyWorkflow = () => {
                     <div className="workflow__slide fade_left">
                       <h4 className="workflow__step">step 04</h4>
                       <h5 className="workflow__number">04</h5>
-                      <h6 className="workflow__title">User Testing</h6>
+                      <h6 className="workflow__title">Security Auditing</h6>
                       <p>
-                        We look forward to engage with beyond the conventional
+                        Rigorous testing, vulnerability scanning, and compliance checks.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -115,9 +115,9 @@ const DigitalAgencyWorkflow = () => {
                     <div className="workflow__slide fade_left">
                       <h4 className="workflow__step">step 05</h4>
                       <h5 className="workflow__number">05</h5>
-                      <h6 className="workflow__title">User Testing</h6>
+                      <h6 className="workflow__title">Scalable Deployment</h6>
                       <p>
-                        We look forward to engage with beyond the conventional
+                        Deploying to highly available cloud infrastructure.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -126,9 +126,9 @@ const DigitalAgencyWorkflow = () => {
                     <div className="workflow__slide fade_left">
                       <h4 className="workflow__step">step 06</h4>
                       <h5 className="workflow__number">06</h5>
-                      <h6 className="workflow__title">User Testing</h6>
+                      <h6 className="workflow__title">Continuous Monitoring</h6>
                       <p>
-                        We look forward to engage with beyond the conventional
+                        Real-time observability and proactive performance tuning.
                       </p>
                     </div>
                   </SwiperSlide>

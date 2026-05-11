@@ -33,8 +33,7 @@ export default function Footer3() {
                       alt="Footer Logo"
                     />
                     <p>
-                      When do they work well, and when do they on us and
-                      finally, when do we actually need how can we avoid them.
+                      Engineering scalable, secure, and robust digital infrastructure for modern enterprises and forward-thinking technology companies.
                     </p>
                     <ul className="footer__social">
                       <li>
@@ -72,19 +71,19 @@ export default function Footer3() {
                     <h2 className="footer__widget-title">Information</h2>
                     <ul className="footer__link">
                       <li>
-                        <Link href="/about">About Company</Link>
+                        <Link href="/about-dark">About Company</Link>
                       </li>
                       <li>
-                        <Link href="/portfolio">Case Study</Link>
+                        <Link href="/portfolio-dark">Case Study</Link>
                       </li>
                       <li>
-                        <Link href="/career">Career</Link>
+                        <Link href="/career-dark">Career</Link>
                       </li>
                       <li>
-                        <Link href="/blog">blog</Link>
+                        <Link href="/blog-dark">blog</Link>
                       </li>
                       <li>
-                        <Link href="/contact">contact</Link>
+                        <Link href="/contact-dark">contact</Link>
                       </li>
                     </ul>
                   </div>
@@ -92,15 +91,15 @@ export default function Footer3() {
                   <div className="footer__widget-3">
                     <h2 className="footer__widget-title">Contact Us</h2>
                     <ul className="footer__contact">
-                      <li>Valentin, Street Road 24, New York, USA - 67452</li>
+                      <li>Lower Mccarthy Hills Avenue, Accra, Ghana - 00233</li>
                       <li>
-                        <a href="tel:02574328301" className="phone">
-                          (+02) 574 - 328 - 301{" "}
+                        <a href="tel:+233591518686" className="phone">
+                          +233 591 518 686{" "}
                         </a>
                       </li>
                       <li>
-                        <a href="mailto:info@buildyexample.com">
-                          info@buildyexample.com
+                        <a href="mailto:hello@okyerejaytechnologies.xyz">
+                          hello@okyerejaytechnologies.xyz
                         </a>
                       </li>
                     </ul>
@@ -112,23 +111,23 @@ export default function Footer3() {
                     </h2>
                     <div className="btn_wrapper">
                       <Link
-                        href="/contact"
+                        href="/contact-dark"
                         className="wc-btn-primary btn-hover btn-item"
                       >
                         <span></span> contact us{" "}
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
-                    <h3 className="contact-time">09 : 00 AM - 10 : 30 PM</h3>
-                    <h4 className="contact-day">Saturday - Thursday</h4>
+                    <h3 className="contact-time">07 : 00 AM - 06 : 30 PM</h3>
+                    <h4 className="contact-day">Monday - Friday</h4>
                   </div>
 
                   <div className="footer__copyright">
                     <p>
-                      © 2022 - 2025 | Alrights reserved by{" "}
-                      <a href="https://wealcoder.com/" target="_blank">
-                        Wealcoder
-                      </a>
+                      © 2026 | All rights reserved by{" "}
+                       <Link href="/" target="_blank">
+                        OKYERE JAY TECHNOLOGIES INC.
+                      </Link>
                     </p>
                   </div>
 

@@ -9,16 +9,16 @@ const DigitalAgencyCTA = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="cta__content">
-                <p className="cta__sub-title">Work with us</p>
+                <p className="cta__sub-title">Ready to scale?</p>
                 <h2 className="cta__title title-anim">
-                  We would love to hear more about your project
+                  Let's engineer your digital infrastructure
                 </h2>
                 <div className="btn_wrapper">
                   <Link
-                    href="/contact"
+                    href="/contact-dark"
                     className="wc-btn-primary btn-hover btn-item"
                   >
-                    <span></span>Let’s talk us{" "}
+                    <span></span>Start the Conversation{" "}
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </div>
