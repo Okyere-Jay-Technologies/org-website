@@ -52,17 +52,10 @@ const Service1 = () => {
                   markers: false,
                 },
               });
-              tl.to(service_images[i], {
-                zIndex: "1",
-              });
+              tl.to(service_images[i], { zIndex: "1" });
               tl.to(
                 service_imagess[i],
-                {
-                  opacity: 0,
-                  duration: 1,
-                  scale: 1.2,
-                  ease: "power4.out",
-                },
+                { opacity: 0, duration: 1, scale: 1.2, ease: "power4.out" },
                 "-=1"
               );
             });
@@ -87,6 +80,7 @@ const Service1 = () => {
       return () => tHero.revert();
     }
   }, []);
+
   return (
     <>
       <section className="service__area-6">
@@ -94,113 +88,63 @@ const Service1 = () => {
           <div className="row inherit-row">
             <div className="col-xxl-12">
               <div className="content-wrapper">
+                {/* Left nav */}
                 <div className="left-content">
                   <ul className="service__list-6">
                     <li>
-                      <a href="#service_1">
-                        Cloud <br /> Architecture
-                      </a>
+                      <a href="#service_1">Cloud <br /> Architecture</a>
                     </li>
                     <li>
-                      <a href="#service_2">
-                        Web & Mobile <br />
-                        Development
-                      </a>
+                      <a href="#service_2">Full-Stack <br /> Engineering</a>
                     </li>
                     <li>
-                      <a href="#service_3">
-                        Cybersecurity & <br /> Compliance
-                      </a>
+                      <a href="#service_3">Cybersecurity <br /> & Compliance</a>
                     </li>
                     <li>
-                      <a href="#service_4">
-                        Blockchain & <br /> Web3
-                      </a>
+                      <a href="#service_4">Blockchain <br /> & Web3</a>
                     </li>
                     <li>
-                      <a href="#service_5">
-                        DevOps & <br /> SRE
-                      </a>
+                      <a href="#service_5">DevOps <br /> & SRE</a>
                     </li>
                     <li>
-                      <a href="#service_6">
-                        Research & <br /> Development
-                      </a>
+                      <a href="#service_6">Research <br /> & Development</a>
                     </li>
                   </ul>
                 </div>
 
+                {/* Mid image panel */}
                 <div className="mid-content">
                   <div className="service__image">
-                    <Image
-                      priority
-                      style={{ width: "auto", height: "auto" }}
-                      src={Service11}
-                      alt="Service Image"
-                    />
+                    <Image priority style={{ width: "auto", height: "auto" }} src={Service11} alt="Cloud Architecture" />
                   </div>
                   <div className="service__image">
-                    <Image
-                      priority
-                      style={{ width: "auto", height: "auto" }}
-                      src={Service12}
-                      alt="Service Image"
-                    />
+                    <Image priority style={{ width: "auto", height: "auto" }} src={Service12} alt="Full-Stack Engineering" />
                   </div>
                   <div className="service__image">
-                    <Image
-                      priority
-                      style={{ width: "auto", height: "auto" }}
-                      src={Service13}
-                      alt="Service Image"
-                    />
+                    <Image priority style={{ width: "auto", height: "auto" }} src={Service13} alt="Cybersecurity" />
                   </div>
                   <div className="service__image">
-                    <Image
-                      priority
-                      style={{ width: "auto", height: "auto" }}
-                      src={Service14}
-                      alt="Service Image"
-                    />
+                    <Image priority style={{ width: "auto", height: "auto" }} src={Service14} alt="Blockchain" />
                   </div>
                   <div className="service__image">
-                    <Image
-                      priority
-                      style={{ width: "auto", height: "auto" }}
-                      src={Service15}
-                      alt="Service Image"
-                    />
+                    <Image priority style={{ width: "auto", height: "auto" }} src={Service15} alt="DevOps" />
                   </div>
                   <div className="service__image">
-                    <Image
-                      priority
-                      style={{ width: "auto", height: "auto" }}
-                      src={Service14}
-                      alt="Service Image"
-                    />
+                    <Image priority style={{ width: "auto", height: "auto" }} src={Service11} alt="R&D" />
                   </div>
                 </div>
 
+                {/* Right content */}
                 <div className="right-content">
                   <div className="service__items-6">
-                    <div
-                      className="service__item-6 has__service_animation"
-                      id="service_1"
-                      data-secid="1"
-                    >
-                      <div className="image-tab">
-                        <Image
-                          priority
-                          style={{ width: "auto", height: "auto" }}
-                          src={Service11}
-                          alt="Service Image"
-                        />
-                      </div>
 
+                    {/* Service 1 */}
+                    <div className="service__item-6 has__service_animation" id="service_1" data-secid="1">
+                      <div className="image-tab">
+                        <Image priority style={{ width: "auto", height: "auto" }} src={Service11} alt="Cloud Architecture" />
+                      </div>
                       <div className="animation__service_page">
-                        <h2 className="service__title-6">
-                          Cloud Computing & Infrastructure
-                        </h2>
+                        <h2 className="service__title-6">Cloud Computing & Infrastructure</h2>
                         <p>
                           We engineer highly scalable, fault-tolerant cloud architectures designed to handle millions of concurrent users. Our team specializes in container orchestration, microservices, and multi-cloud strategies to ensure your applications remain robust and reliable under any load.
                         </p>
@@ -213,37 +157,20 @@ const Service1 = () => {
                           <li>+ Performance Tuning</li>
                         </ul>
                         <div className="btn_wrapper">
-                          <Link
-                            href="/service-details-dark"
-                            className="wc-btn-secondary btn-item btn-hover"
-                          >
-                            <span></span>Get free
-                            <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
+                          <Link href="/service-details-dark" className="wc-btn-secondary btn-item btn-hover">
+                            <span></span>Get free<br />quotes <i className="fa-solid fa-arrow-right"></i>
                           </Link>
                         </div>
                       </div>
                     </div>
-                    </div>
 
-                    <div
-                      className="service__item-6"
-                      id="service_2"
-                      data-secid="2"
-                    >
+                    {/* Service 2 */}
+                    <div className="service__item-6" id="service_2" data-secid="2">
                       <div className="image-tab">
-                        <Image
-                          priority
-                          style={{ width: "auto", height: "auto" }}
-                          src={Service12}
-                          alt="Service Image"
-                        />
+                        <Image priority style={{ width: "auto", height: "auto" }} src={Service12} alt="Full-Stack Engineering" />
                       </div>
-
                       <div className="animation__service_page">
-                        <h2 className="service__title-6">
-                          Full-Stack Software Engineering
-                        </h2>
+                        <h2 className="service__title-6">Full-Stack Software Engineering</h2>
                         <p>
                           Our engineering team builds enterprise-grade web and mobile applications using modern frameworks. We focus on clean architecture, high-performance rendering, and seamless user experiences tailored for scaling technology companies.
                         </p>
@@ -256,37 +183,20 @@ const Service1 = () => {
                           <li>+ System Architecture</li>
                         </ul>
                         <div className="btn_wrapper">
-                          <Link
-                            href="/service-details-dark"
-                            className="wc-btn-secondary btn-item btn-hover"
-                          >
-                            <span></span>Get free
-                            <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
+                          <Link href="/service-details-dark" className="wc-btn-secondary btn-item btn-hover">
+                            <span></span>Get free<br />quotes <i className="fa-solid fa-arrow-right"></i>
                           </Link>
                         </div>
                       </div>
                     </div>
-                    </div>
 
-                    <div
-                      className="service__item-6"
-                      id="service_3"
-                      data-secid="3"
-                    >
+                    {/* Service 3 */}
+                    <div className="service__item-6" id="service_3" data-secid="3">
                       <div className="image-tab">
-                        <Image
-                          priority
-                          style={{ width: "auto", height: "auto" }}
-                          src={Service13}
-                          alt="Service Image"
-                        />
+                        <Image priority style={{ width: "auto", height: "auto" }} src={Service13} alt="Cybersecurity" />
                       </div>
-
                       <div className="animation__service_page">
-                        <h2 className="service__title-6">
-                          Cybersecurity & Compliance
-                        </h2>
+                        <h2 className="service__title-6">Cybersecurity & Compliance</h2>
                         <p>
                           Security is built into everything we do. We provide zero-trust network architectures, advanced penetration testing, and compliance-ready infrastructure to protect your most critical assets against modern threats.
                         </p>
@@ -299,37 +209,20 @@ const Service1 = () => {
                           <li>+ Identity Management</li>
                         </ul>
                         <div className="btn_wrapper">
-                          <Link
-                            href="/service-details-dark"
-                            className="wc-btn-secondary btn-item btn-hover"
-                          >
-                            <span></span>Get free
-                            <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
+                          <Link href="/service-details-dark" className="wc-btn-secondary btn-item btn-hover">
+                            <span></span>Get free<br />quotes <i className="fa-solid fa-arrow-right"></i>
                           </Link>
                         </div>
                       </div>
                     </div>
-                    </div>
 
-                    <div
-                      className="service__item-6"
-                      id="service_4"
-                      data-secid="4"
-                    >
+                    {/* Service 4 */}
+                    <div className="service__item-6" id="service_4" data-secid="4">
                       <div className="image-tab">
-                        <Image
-                          priority
-                          style={{ width: "auto", height: "auto" }}
-                          src={Service14}
-                          alt="Service Image"
-                        />
+                        <Image priority style={{ width: "auto", height: "auto" }} src={Service14} alt="Blockchain" />
                       </div>
-
                       <div className="animation__service_page">
-                        <h2 className="service__title-6">
-                          Blockchain & Web3 Development
-                        </h2>
+                        <h2 className="service__title-6">Blockchain & Web3 Development</h2>
                         <p>
                           We pioneer decentralized solutions with secure smart contracts, DeFi protocols, and robust blockchain nodes. Our deep understanding of cryptography ensures your Web3 applications are safe, efficient, and future-proof.
                         </p>
@@ -342,37 +235,20 @@ const Service1 = () => {
                           <li>+ Web3 Integration</li>
                         </ul>
                         <div className="btn_wrapper">
-                          <Link
-                            href="/service-details-dark"
-                            className="wc-btn-secondary btn-item btn-hover"
-                          >
-                            <span></span>Get free
-                            <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
+                          <Link href="/service-details-dark" className="wc-btn-secondary btn-item btn-hover">
+                            <span></span>Get free<br />quotes <i className="fa-solid fa-arrow-right"></i>
                           </Link>
                         </div>
                       </div>
                     </div>
-                    </div>
 
-                    <div
-                      className="service__item-6"
-                      id="service_5"
-                      data-secid="5"
-                    >
+                    {/* Service 5 */}
+                    <div className="service__item-6" id="service_5" data-secid="5">
                       <div className="image-tab">
-                        <Image
-                          priority
-                          style={{ width: "auto", height: "auto" }}
-                          src={Service15}
-                          alt="Service Image"
-                        />
+                        <Image priority style={{ width: "auto", height: "auto" }} src={Service15} alt="DevOps" />
                       </div>
-
                       <div className="animation__service_page">
-                        <h2 className="service__title-6">
-                          DevOps & SRE
-                        </h2>
+                        <h2 className="service__title-6">DevOps & Site Reliability Engineering</h2>
                         <p>
                           Accelerate your delivery with automated CI/CD pipelines, infrastructure as code, and comprehensive observability. Our Site Reliability Engineers ensure your systems are always available and recover instantly from failures.
                         </p>
@@ -385,37 +261,20 @@ const Service1 = () => {
                           <li>+ Reliability Engineering</li>
                         </ul>
                         <div className="btn_wrapper">
-                          <Link
-                            href="/service-details-dark"
-                            className="wc-btn-secondary btn-item btn-hover"
-                          >
-                            <span></span>Get free
-                            <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
+                          <Link href="/service-details-dark" className="wc-btn-secondary btn-item btn-hover">
+                            <span></span>Get free<br />quotes <i className="fa-solid fa-arrow-right"></i>
                           </Link>
                         </div>
                       </div>
                     </div>
-                    </div>
 
-                    <div
-                      className="service__item-6"
-                      id="service_6"
-                      data-secid="6"
-                    >
+                    {/* Service 6 */}
+                    <div className="service__item-6" id="service_6" data-secid="6">
                       <div className="image-tab">
-                        <Image
-                          priority
-                          style={{ width: "auto", height: "auto" }}
-                          src={Service14}
-                          alt="Service Image"
-                        />
+                        <Image priority style={{ width: "auto", height: "auto" }} src={Service11} alt="R&D" />
                       </div>
-
                       <div className="animation__service_page">
-                        <h2 className="service__title-6">
-                          Advanced Research & Development
-                        </h2>
+                        <h2 className="service__title-6">Advanced Research & Development</h2>
                         <p>
                           Pushing the boundaries of technology, our R&D lab explores AI integrations, predictive analytics, and next-generation algorithms. We translate cutting-edge research into production-ready innovations for your business.
                         </p>
@@ -428,19 +287,16 @@ const Service1 = () => {
                           <li>+ Technical Feasibility</li>
                         </ul>
                         <div className="btn_wrapper">
-                          <Link
-                            href="/service-details-dark"
-                            className="wc-btn-secondary btn-item btn-hover"
-                          >
-                            <span></span>Get free
-                            <br />
-                            qoutes <i className="fa-solid fa-arrow-right"></i>
+                          <Link href="/service-details-dark" className="wc-btn-secondary btn-item btn-hover">
+                            <span></span>Get free<br />quotes <i className="fa-solid fa-arrow-right"></i>
                           </Link>
                         </div>
                       </div>
                     </div>
+
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
