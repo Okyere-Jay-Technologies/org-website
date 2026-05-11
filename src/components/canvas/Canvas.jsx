@@ -12,30 +12,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
   const [subAccordion, setSubAccordion] = useState(0);
   const headerTitle = useRef();
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      setTimeout(() => {
-        let rootParent = headerTitle.current.children;
-        for (let i = 0; i < rootParent.length; i++) {
-          let firstParent = rootParent[i].children;
-          for (let j = 0; j < firstParent.length; j++) {
-            if (firstParent[j].className.includes("header_title")) {
-
-              let arr = firstParent[j].children[0].textContent.split("");
-              let spanData = "";
-              for (let k = 0; k < arr.length; k++) {
-                if (arr[k] == " ") {
-                  spanData += `<span style='width:2vw;'>${arr[k]}</span>`;
-                } else {
-                  spanData += `<span>${arr[k]}</span>`;
-                }
-              }
-              let result = '<div class="menu-text">' + spanData + "</div>";
-              firstParent[j].children[0].innerHTML = result;
-            }
-          }
-        }
-      }, 10);
-    }
+    // Text splitting animation removed to fix vertical layout issues.
   }, []);
   const openData = (data) => {
     setAccordion(data);
@@ -157,12 +134,12 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
               <h3>Get in touch</h3>
               <ul>
                 <li>
-                  <a href="tel:02094980547">+(02) - 094 980 547</a>
+                  <a href="tel:+233591518686">+(233) 591 518 686</a>
                 </li>
                 <li>
-                  <a href="mailto:info@extradesign.com">info@extradesign.com</a>
+                  <a href="mailto:hello@okyerejaytechnologies.xyz">hello@okyerejaytechnologies.xyz</a>
                 </li>
-                <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
+                <li>Lower Mccarthy Hills Avenue, Accra, Ghana - 00233</li>
               </ul>
             </div>
             <Image

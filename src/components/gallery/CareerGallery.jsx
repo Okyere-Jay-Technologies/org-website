@@ -1,7 +1,7 @@
-import Career2 from "../../../public/assets/imgs/career/2.jpg";
-import Career3 from "../../../public/assets/imgs/career/3.jpg";
-import Career4 from "../../../public/assets/imgs/career/4.jpg";
-import Career5 from "../../../public/assets/imgs/career/5.jpg";
+import Career2 from "../../../public/assets/imgs/career/career_tech_2.png";
+import Career3 from "../../../public/assets/imgs/career/career_tech_3.png";
+import Career4 from "../../../public/assets/imgs/career/career_tech_4.png";
+import Career5 from "../../../public/assets/imgs/career/career_tech_5.png";
 import Image from "next/image";
 
 const CareerGallery = () => {

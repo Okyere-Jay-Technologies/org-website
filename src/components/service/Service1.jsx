@@ -205,16 +205,16 @@ const Service1 = () => {
                           We engineer highly scalable, fault-tolerant cloud architectures designed to handle millions of concurrent users. Our team specializes in container orchestration, microservices, and multi-cloud strategies to ensure your applications remain robust and reliable under any load.
                         </p>
                         <ul>
-  <li>+ Distributed Systems</li>
-  <li>+ Kubernetes & Docker</li>
-  <li>+ Zero-Trust Security</li>
-  <li>+ Smart Contracts</li>
-  <li>+ CI/CD Pipelines</li>
-  <li>+ Performance Tuning</li>
-</ul>
+                          <li>+ Distributed Systems</li>
+                          <li>+ Kubernetes & Docker</li>
+                          <li>+ AWS / GCP / Azure</li>
+                          <li>+ Microservices</li>
+                          <li>+ Serverless Architecture</li>
+                          <li>+ Performance Tuning</li>
+                        </ul>
                         <div className="btn_wrapper">
                           <Link
-                            href="/service-details"
+                            href="/service-details-dark"
                             className="wc-btn-secondary btn-item btn-hover"
                           >
                             <span></span>Get free
@@ -223,6 +223,7 @@ const Service1 = () => {
                           </Link>
                         </div>
                       </div>
+                    </div>
                     </div>
 
                     <div
@@ -244,19 +245,19 @@ const Service1 = () => {
                           Full-Stack Software Engineering
                         </h2>
                         <p>
-                          We engineer highly scalable, fault-tolerant cloud architectures designed to handle millions of concurrent users. Our team specializes in container orchestration, microservices, and multi-cloud strategies to ensure your applications remain robust and reliable under any load.
+                          Our engineering team builds enterprise-grade web and mobile applications using modern frameworks. We focus on clean architecture, high-performance rendering, and seamless user experiences tailored for scaling technology companies.
                         </p>
                         <ul>
-  <li>+ Distributed Systems</li>
-  <li>+ Kubernetes & Docker</li>
-  <li>+ Zero-Trust Security</li>
-  <li>+ Smart Contracts</li>
-  <li>+ CI/CD Pipelines</li>
-  <li>+ Performance Tuning</li>
-</ul>
+                          <li>+ React & Next.js</li>
+                          <li>+ Node.js & TypeScript</li>
+                          <li>+ Flutter & React Native</li>
+                          <li>+ GraphQL & REST APIs</li>
+                          <li>+ Database Design</li>
+                          <li>+ System Architecture</li>
+                        </ul>
                         <div className="btn_wrapper">
                           <Link
-                            href="/service-details"
+                            href="/service-details-dark"
                             className="wc-btn-secondary btn-item btn-hover"
                           >
                             <span></span>Get free
@@ -265,6 +266,7 @@ const Service1 = () => {
                           </Link>
                         </div>
                       </div>
+                    </div>
                     </div>
 
                     <div
@@ -286,19 +288,19 @@ const Service1 = () => {
                           Cybersecurity & Compliance
                         </h2>
                         <p>
-                          We engineer highly scalable, fault-tolerant cloud architectures designed to handle millions of concurrent users. Our team specializes in container orchestration, microservices, and multi-cloud strategies to ensure your applications remain robust and reliable under any load.
+                          Security is built into everything we do. We provide zero-trust network architectures, advanced penetration testing, and compliance-ready infrastructure to protect your most critical assets against modern threats.
                         </p>
                         <ul>
-  <li>+ Distributed Systems</li>
-  <li>+ Kubernetes & Docker</li>
-  <li>+ Zero-Trust Security</li>
-  <li>+ Smart Contracts</li>
-  <li>+ CI/CD Pipelines</li>
-  <li>+ Performance Tuning</li>
-</ul>
+                          <li>+ Zero-Trust Security</li>
+                          <li>+ Penetration Testing</li>
+                          <li>+ SOC2 Compliance</li>
+                          <li>+ Threat Modeling</li>
+                          <li>+ Data Encryption</li>
+                          <li>+ Identity Management</li>
+                        </ul>
                         <div className="btn_wrapper">
                           <Link
-                            href="/service-details"
+                            href="/service-details-dark"
                             className="wc-btn-secondary btn-item btn-hover"
                           >
                             <span></span>Get free
@@ -307,6 +309,7 @@ const Service1 = () => {
                           </Link>
                         </div>
                       </div>
+                    </div>
                     </div>
 
                     <div
@@ -325,22 +328,22 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          Cloud Computing & Infrastructure
+                          Blockchain & Web3 Development
                         </h2>
                         <p>
-                          We engineer highly scalable, fault-tolerant cloud architectures designed to handle millions of concurrent users. Our team specializes in container orchestration, microservices, and multi-cloud strategies to ensure your applications remain robust and reliable under any load.
+                          We pioneer decentralized solutions with secure smart contracts, DeFi protocols, and robust blockchain nodes. Our deep understanding of cryptography ensures your Web3 applications are safe, efficient, and future-proof.
                         </p>
                         <ul>
-  <li>+ Distributed Systems</li>
-  <li>+ Kubernetes & Docker</li>
-  <li>+ Zero-Trust Security</li>
-  <li>+ Smart Contracts</li>
-  <li>+ CI/CD Pipelines</li>
-  <li>+ Performance Tuning</li>
-</ul>
+                          <li>+ Smart Contracts</li>
+                          <li>+ Solidity & Rust</li>
+                          <li>+ DeFi Protocols</li>
+                          <li>+ Node Infrastructure</li>
+                          <li>+ Tokenomics Design</li>
+                          <li>+ Web3 Integration</li>
+                        </ul>
                         <div className="btn_wrapper">
                           <Link
-                            href="/service-details"
+                            href="/service-details-dark"
                             className="wc-btn-secondary btn-item btn-hover"
                           >
                             <span></span>Get free
@@ -349,6 +352,7 @@ const Service1 = () => {
                           </Link>
                         </div>
                       </div>
+                    </div>
                     </div>
 
                     <div
@@ -367,22 +371,22 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          Cloud Computing & Infrastructure
+                          DevOps & SRE
                         </h2>
                         <p>
-                          We engineer highly scalable, fault-tolerant cloud architectures designed to handle millions of concurrent users. Our team specializes in container orchestration, microservices, and multi-cloud strategies to ensure your applications remain robust and reliable under any load.
+                          Accelerate your delivery with automated CI/CD pipelines, infrastructure as code, and comprehensive observability. Our Site Reliability Engineers ensure your systems are always available and recover instantly from failures.
                         </p>
                         <ul>
-  <li>+ Distributed Systems</li>
-  <li>+ Kubernetes & Docker</li>
-  <li>+ Zero-Trust Security</li>
-  <li>+ Smart Contracts</li>
-  <li>+ CI/CD Pipelines</li>
-  <li>+ Performance Tuning</li>
-</ul>
+                          <li>+ CI/CD Pipelines</li>
+                          <li>+ Infrastructure as Code</li>
+                          <li>+ Terraform & Ansible</li>
+                          <li>+ Observability & Logging</li>
+                          <li>+ Incident Management</li>
+                          <li>+ Reliability Engineering</li>
+                        </ul>
                         <div className="btn_wrapper">
                           <Link
-                            href="/service-details"
+                            href="/service-details-dark"
                             className="wc-btn-secondary btn-item btn-hover"
                           >
                             <span></span>Get free
@@ -391,6 +395,7 @@ const Service1 = () => {
                           </Link>
                         </div>
                       </div>
+                    </div>
                     </div>
 
                     <div
@@ -409,22 +414,22 @@ const Service1 = () => {
 
                       <div className="animation__service_page">
                         <h2 className="service__title-6">
-                          Research & Development
+                          Advanced Research & Development
                         </h2>
                         <p>
-                          We engineer highly scalable, fault-tolerant cloud architectures designed to handle millions of concurrent users. Our team specializes in container orchestration, microservices, and multi-cloud strategies to ensure your applications remain robust and reliable under any load.
+                          Pushing the boundaries of technology, our R&D lab explores AI integrations, predictive analytics, and next-generation algorithms. We translate cutting-edge research into production-ready innovations for your business.
                         </p>
                         <ul>
-  <li>+ Distributed Systems</li>
-  <li>+ Kubernetes & Docker</li>
-  <li>+ Zero-Trust Security</li>
-  <li>+ Smart Contracts</li>
-  <li>+ CI/CD Pipelines</li>
-  <li>+ Performance Tuning</li>
-</ul>
+                          <li>+ Artificial Intelligence</li>
+                          <li>+ Machine Learning</li>
+                          <li>+ Predictive Analytics</li>
+                          <li>+ Algorithmic Optimization</li>
+                          <li>+ Prototype Development</li>
+                          <li>+ Technical Feasibility</li>
+                        </ul>
                         <div className="btn_wrapper">
                           <Link
-                            href="/service-details"
+                            href="/service-details-dark"
                             className="wc-btn-secondary btn-item btn-hover"
                           >
                             <span></span>Get free
