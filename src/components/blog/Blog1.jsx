@@ -67,16 +67,16 @@ const Blog1 = () => {
             <div className="col-xxl-8 col-xl-7 col-lg-6 col-md-6">
               <div className="sec-title-wrapper">
                 <h2 className="sec-title-2 animation__char_come" ref={charAnim}>
-                  We always <br />
-                  think
+                  Engineering <br />
+                  Insights
                 </h2>
               </div>
             </div>
             <div className="col-xxl-4 col-xl-5 col-lg-6 col-md-6">
               <div className="blog__text">
                 <p>
-                  Crafting new bright brands, unique visual systems and digital
-                  experience focused on a wide range of original collabs.{" "}
+                  Deep technical articles on cloud architecture, cybersecurity,
+                  blockchain, and the future of enterprise software engineering.
                 </p>
               </div>
             </div>
@@ -86,38 +86,36 @@ const Blog1 = () => {
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <article className="blog__item">
                 <div className="blog__img-wrapper">
-                  <Link href="/blog-details">
+                  <Link href="/blog-details-dark">
                     <div className="img-box">
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
                         src={Blog11}
-                        alt="Blog Thumbnail"
+                        alt="Zero-Trust Security"
                       />
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
                         src={Blog11}
-                        alt="BLog Thumbnail"
+                        alt="Zero-Trust Security"
                       />
                     </div>
                   </Link>
                 </div>
                 <h4 className="blog__meta">
-                  <Link href="/blog">UI Design</Link> . 15 March 2019
+                  <Link href="/blog-dark">Cloud Engineering</Link> . 14 Jan 2024
                 </h4>
                 <h5>
-                  <Link href="/blog-details" className="blog__title">
-                    Ways of lying to yourself about your new relationship.
+                  <Link href="/blog-details-dark" className="blog__title">
+                    Building Zero-Trust Network Architecture for Enterprise Scale
                   </Link>
                 </h5>
-                <Link href="/blog-details" className="blog__btn">
+                <Link href="/blog-details-dark" className="blog__btn">
                   Read More{" "}
-                  <span>
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </span>
+                  <span><i className="fa-solid fa-arrow-right"></i></span>
                 </Link>
               </article>
             </div>
@@ -125,38 +123,36 @@ const Blog1 = () => {
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <article className="blog__item">
                 <div className="blog__img-wrapper">
-                  <Link href="/blog-details">
+                  <Link href="/blog-details-dark">
                     <div className="img-box">
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
                         src={Blog22}
-                        alt="Blog Thumbnail"
+                        alt="Kubernetes at Scale"
                       />
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
                         src={Blog22}
-                        alt="BLog Thumbnail"
+                        alt="Kubernetes at Scale"
                       />
                     </div>
                   </Link>
                 </div>
                 <h4 className="blog__meta">
-                  <Link href="/category">UI Design</Link> . 02 May 2019
+                  <Link href="/blog-dark">DevOps</Link> . 28 Feb 2024
                 </h4>
                 <h5>
-                  <Link href="/blog-details" className="blog__title">
-                    How to manage a talented and successful de sign team
+                  <Link href="/blog-details-dark" className="blog__title">
+                    Kubernetes at Scale: Orchestrating Thousands of Microservices
                   </Link>
                 </h5>
-                <Link href="/blog-details" className="blog__btn">
+                <Link href="/blog-details-dark" className="blog__btn">
                   Read More{" "}
-                  <span>
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </span>
+                  <span><i className="fa-solid fa-arrow-right"></i></span>
                 </Link>
               </article>
             </div>
@@ -164,38 +160,36 @@ const Blog1 = () => {
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <article className="blog__item">
                 <div className="blog__img-wrapper">
-                  <Link href="/blog-details">
+                  <Link href="/blog-details-dark">
                     <div className="img-box">
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
                         src={Blog33}
-                        alt="Blog Thumbnail"
+                        alt="Blockchain Smart Contracts"
                       />
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
                         src={Blog33}
-                        alt="BLog Thumbnail"
+                        alt="Blockchain Smart Contracts"
                       />
                     </div>
                   </Link>
                 </div>
                 <h4 className="blog__meta">
-                  <Link href="/category">UI Design</Link> . 02 May 2022
+                  <Link href="/blog-dark">Web3</Link> . 10 Mar 2024
                 </h4>
                 <h5>
-                  <Link href="/blog-details" className="blog__title">
-                    How to bring fold to your startup company with Axtra
+                  <Link href="/blog-details-dark" className="blog__title">
+                    Securing Smart Contracts: Auditing Patterns for DeFi Protocols
                   </Link>
                 </h5>
-                <Link href="/blog-details" className="blog__btn">
+                <Link href="/blog-details-dark" className="blog__btn">
                   Read More{" "}
-                  <span>
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </span>
+                  <span><i className="fa-solid fa-arrow-right"></i></span>
                 </Link>
               </article>
             </div>
@@ -203,38 +197,36 @@ const Blog1 = () => {
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <article className="blog__item">
                 <div className="blog__img-wrapper">
-                  <Link href="/blog-details">
+                  <Link href="/blog-details-dark">
                     <div className="img-box">
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
                         src={Blog44}
-                        alt="Blog Thumbnail"
+                        alt="Multi-Cloud Strategy"
                       />
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
                         src={Blog44}
-                        alt="BLog Thumbnail"
+                        alt="Multi-Cloud Strategy"
                       />
                     </div>
                   </Link>
                 </div>
                 <h4 className="blog__meta">
-                  <Link href="/category">UI Design</Link> . 22 Dec 2018
+                  <Link href="/blog-dark">Cloud Architecture</Link> . 02 Apr 2024
                 </h4>
                 <h5>
-                  <Link href="/blog-details" className="blog__title">
-                    Ways of lying to yourself about your new relationship.
+                  <Link href="/blog-details-dark" className="blog__title">
+                    Multi-Cloud Strategy: Avoiding Vendor Lock-In at Enterprise Scale
                   </Link>
                 </h5>
-                <Link href="/blog-details" className="blog__btn">
+                <Link href="/blog-details-dark" className="blog__btn">
                   Read More{" "}
-                  <span>
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </span>
+                  <span><i className="fa-solid fa-arrow-right"></i></span>
                 </Link>
               </article>
             </div>
@@ -242,38 +234,36 @@ const Blog1 = () => {
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <article className="blog__item">
                 <div className="blog__img-wrapper">
-                  <Link href="/blog-details">
+                  <Link href="/blog-details-dark">
                     <div className="img-box">
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
                         src={Blog55}
-                        alt="Blog Thumbnail"
+                        alt="AI in Cybersecurity"
                       />
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
                         src={Blog55}
-                        alt="BLog Thumbnail"
+                        alt="AI in Cybersecurity"
                       />
                     </div>
                   </Link>
                 </div>
                 <h4 className="blog__meta">
-                  <Link href="/category">UI Design</Link> . 02 May 2019
+                  <Link href="/blog-dark">Cybersecurity</Link> . 19 May 2024
                 </h4>
                 <h5>
-                  <Link href="/blog-details" className="blog__title">
-                    How to manage a talented and successful de sign team
+                  <Link href="/blog-details-dark" className="blog__title">
+                    AI-Driven Threat Detection: The Future of Cybersecurity Defense
                   </Link>
                 </h5>
-                <Link href="/blog-details" className="blog__btn">
+                <Link href="/blog-details-dark" className="blog__btn">
                   Read More{" "}
-                  <span>
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </span>
+                  <span><i className="fa-solid fa-arrow-right"></i></span>
                 </Link>
               </article>
             </div>
@@ -281,38 +271,36 @@ const Blog1 = () => {
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <article className="blog__item">
                 <div className="blog__img-wrapper">
-                  <Link href="/blog-details">
+                  <Link href="/blog-details-dark">
                     <div className="img-box">
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
                         src={Blog66}
-                        alt="Blog Thumbnail"
+                        alt="Site Reliability Engineering"
                       />
                       <Image
                         priority
                         style={{ width: "auto", height: "auto" }}
                         className="image-box__item"
                         src={Blog66}
-                        alt="BLog Thumbnail"
+                        alt="Site Reliability Engineering"
                       />
                     </div>
                   </Link>
                 </div>
                 <h4 className="blog__meta">
-                  <Link href="/category">UI Design</Link> . 02 May 2019
+                  <Link href="/blog-dark">SRE</Link> . 07 Jun 2024
                 </h4>
                 <h5>
-                  <Link href="/blog-details" className="blog__title">
-                    How to bring fold to your startup company with Axtra
+                  <Link href="/blog-details-dark" className="blog__title">
+                    SRE Playbook: Achieving 99.99% Uptime in Distributed Systems
                   </Link>
                 </h5>
-                <Link href="/blog-details" className="blog__btn">
+                <Link href="/blog-details-dark" className="blog__btn">
                   Read More{" "}
-                  <span>
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </span>
+                  <span><i className="fa-solid fa-arrow-right"></i></span>
                 </Link>
               </article>
             </div>
