@@ -5,8 +5,14 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
+import { Analytics } from '@vercel/analytics/react';
 config.autoAddCss = false;
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
 }
